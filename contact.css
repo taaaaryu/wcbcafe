@@ -1,0 +1,98 @@
+@charset "UTF-8"
+
+/* 共通部分 */
+html{font-size:100%;}
+body{font-family: "Yu Gothic Medium","YuGothic";
+line-height: 1.7;
+color: black;}
+a{text-decoration: none;}
+img{max-width: 100%;}
+
+.around{
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 8%;
+}
+
+.top-bg{
+   background-image: url(images/contact-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+.page-header h2{
+  font-size: 2.4rem;
+}
+.logo {
+  width: 60px;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.main-nav {
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+.main-nav li {
+  margin-left: 36px;
+}
+.main-nav a {
+  color: #432;
+}
+.main-nav a:hover {
+  text-decoration: #432 underline;
+}
+.explain-top{
+  text-align: center;
+  margin-top: 6rem;
+}
+.explain-top h1{
+  font-size: 3.5rem;
+  margin-bottom: 1.3rem;
+}
+label{
+  margin-bottom: 1.25rem;
+display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+  background: rgba(255, 255, 255, 0.774);
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+}
+input[type="submit"]{
+  background: rgba(116, 227, 255, 0.8);
+  border: 1.2px solid whitesmoke;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  margin-left: 9.2rem;
+}
+#location{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.googlemap{
+  width: 74%;
+  margin-left: 2rem;
+}
+.location-info {
+  width: 22%;
+}
+.sub-title{
+  
+}
+/* モバイル版 */
+@media(max-width:600px){
+  
+}
